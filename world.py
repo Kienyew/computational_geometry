@@ -15,6 +15,9 @@ class Point(GameObject):
         return hash(self.x) ^ hash(self.y)
 
     def __eq__(self, other):
+        if not isinstance(other, Point):
+            return False
+
         return self.x == other.x and self.y == other.y
 
     def draw(self, color: pyray.Color, screen_width: int, screen_height: int):
