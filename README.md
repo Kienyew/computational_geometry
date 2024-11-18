@@ -42,3 +42,7 @@ change the first line `import convex_hull` and the line of `task = ..` to corres
 ## Chapter 1: Computational Geometry
 ### i. Convex Hull
 - file: `convex_hull.py`
+
+## Chapter 2: Line Segment Intersections
+### i. Line Intersections
+- file: `line_intersections.py`
